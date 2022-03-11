@@ -536,7 +536,7 @@ export default {
      */
     handleBackgroundClick() {
       if (this.clickToClose) {
-        this.toggle(false)
+        this.$modal.hide(this.name)
       }
     },
 
